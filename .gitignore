@@ -1,0 +1,43 @@
+# Visual Studio / Rider / VS Code
+.vs/
+*.user
+*.suo
+*.userprefs
+*.vscode/
+
+# Build results
+bin/
+obj/
+out/
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# ASP.NET Core / Web
+wwwroot/lib/
+*.log
+*.db
+*.sqlite
+
+# Rider project files
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup / temporary files
+*.bak
+*.tmp
+*.swp
+
+# Dotnet publish folder
+publish/
+
+# JetBrains Rider
+*.sln.iml
+
+# Entity Framework Migrations
+Migrations/
