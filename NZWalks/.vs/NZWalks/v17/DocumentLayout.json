@@ -1,33 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\",
+  "WorkspaceRootPath": "D:\\0. PROJECTS\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|d:\\projects\\asp dotnet api projects\\nzwalks\\nzwalks\\nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|d:\\0. projects\\asp dotnet api projects\\nzwalks\\nzwalks\\nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|d:\\projects\\asp dotnet api projects\\nzwalks\\nzwalks\\nzwalks.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|d:\\projects\\asp dotnet api projects\\nzwalks\\nzwalks\\nzwalks.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|d:\\0. projects\\asp dotnet api projects\\nzwalks\\nzwalks\\nzwalks.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|d:\\projects\\asp dotnet api projects\\nzwalks\\nzwalks\\nzwalks.api\\migrations\\20250816105315_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\migrations\\20250816105315_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|d:\\0. projects\\asp dotnet api projects\\nzwalks\\nzwalks\\nzwalks.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|d:\\projects\\asp dotnet api projects\\nzwalks\\nzwalks\\nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|d:\\0. projects\\asp dotnet api projects\\nzwalks\\nzwalks\\nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|d:\\projects\\asp dotnet api projects\\nzwalks\\nzwalks\\nzwalks.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|d:\\0. projects\\asp dotnet api projects\\nzwalks\\nzwalks\\nzwalks.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|d:\\projects\\asp dotnet api projects\\nzwalks\\nzwalks\\nzwalks.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|d:\\0. projects\\asp dotnet api projects\\nzwalks\\nzwalks\\nzwalks.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{66FE4CA8-3050-48CC-BAB0-D3AB280C44DB}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -42,39 +38,37 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\0. PROJECTS\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\0. PROJECTS\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "NZWalks.API\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T18:30:26.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-16T18:30:26.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "StudentsController.cs",
-              "DocumentMoniker": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\StudentsController.cs",
+              "DocumentMoniker": "D:\\0. PROJECTS\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Controllers\\StudentsController.cs",
-              "ToolTip": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\0. PROJECTS\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "NZWalks.API\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T15:48:06.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-16T15:48:06.878Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RegionsController.cs",
-              "DocumentMoniker": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\RegionsController.cs",
+              "DocumentMoniker": "D:\\0. PROJECTS\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\RegionsController.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Controllers\\RegionsController.cs",
-              "ToolTip": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\RegionsController.cs",
+              "ToolTip": "D:\\0. PROJECTS\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\RegionsController.cs",
               "RelativeToolTip": "NZWalks.API\\Controllers\\RegionsController.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAAAKYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-16T15:33:41.434Z",
               "EditorCaption": ""
@@ -82,54 +76,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20250816105315_Initial Migration.cs",
-              "DocumentMoniker": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Migrations\\20250816105315_Initial Migration.cs",
-              "RelativeDocumentMoniker": "NZWalks.API\\Migrations\\20250816105315_Initial Migration.cs",
-              "ToolTip": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Migrations\\20250816105315_Initial Migration.cs",
-              "RelativeToolTip": "NZWalks.API\\Migrations\\20250816105315_Initial Migration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\0. PROJECTS\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Program.cs",
+              "RelativeDocumentMoniker": "NZWalks.API\\Program.cs",
+              "ToolTip": "D:\\0. PROJECTS\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Program.cs",
+              "RelativeToolTip": "NZWalks.API\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA0AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T10:53:16.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-16T10:27:33.593Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Program.cs",
-              "RelativeDocumentMoniker": "NZWalks.API\\Program.cs",
-              "ToolTip": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Program.cs",
-              "RelativeToolTip": "NZWalks.API\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA0AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T10:27:33.593Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\0. PROJECTS\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\appsettings.json",
+              "RelativeDocumentMoniker": "NZWalks.API\\appsettings.json",
+              "ToolTip": "D:\\0. PROJECTS\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\appsettings.json",
+              "RelativeToolTip": "NZWalks.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-15T14:52:16.887Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\appsettings.json",
-              "RelativeDocumentMoniker": "NZWalks.API\\appsettings.json",
-              "ToolTip": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\appsettings.json",
-              "RelativeToolTip": "NZWalks.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-15T14:52:16.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\0. PROJECTS\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "NZWalks.API\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\projects\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\0. PROJECTS\\ASP DOTNET API PROJECTS\\NZWalks\\NZWalks\\NZWalks.API\\Properties\\launchSettings.json",
               "RelativeToolTip": "NZWalks.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-15T14:51:31.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-15T14:51:31.719Z"
             }
           ]
         }
