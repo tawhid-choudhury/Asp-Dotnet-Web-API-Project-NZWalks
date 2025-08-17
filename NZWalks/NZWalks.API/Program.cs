@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using NZWalks.API.Data;
+using NZWalks.API.Repositories.Interfaces;
+using NZWalks.API.Repositories.SqlImplementations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,9 @@ builder.Services.AddSwaggerGen();
 // Register the DbContext with dependency injection
 builder.Services.AddDbContext<NZWalksDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("NZWalksCS")));
+
+
+builder.Services.AddScoped<IRegionsRepository, SqlRegionsRepository>();
 
 var app = builder.Build();
 
