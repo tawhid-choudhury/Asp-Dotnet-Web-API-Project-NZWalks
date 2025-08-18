@@ -342,3 +342,4 @@ D:\0. PROJECTS\ASP DOTNET API PROJECTS\NZWalks\NZWalks\NZWalks.API\obj\Debug\net
 D:\0. PROJECTS\ASP DOTNET API PROJECTS\NZWalks\NZWalks\NZWalks.API\obj\Debug\net8.0\NZWalks.API.pdb
 D:\0. PROJECTS\ASP DOTNET API PROJECTS\NZWalks\NZWalks\NZWalks.API\obj\Debug\net8.0\NZWalks.API.genruntimeconfig.cache
 D:\0. PROJECTS\ASP DOTNET API PROJECTS\NZWalks\NZWalks\NZWalks.API\obj\Debug\net8.0\ref\NZWalks.API.dll
+D:\0. PROJECTS\ASP DOTNET API PROJECTS\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\AutoMapper.dll
