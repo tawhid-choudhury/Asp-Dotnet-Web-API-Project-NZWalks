@@ -29,7 +29,7 @@ namespace NZWalks.API.Controllers
             await _walksRepository.AddWalk(walkDomainModel);
             var walkDto = _mapper.Map<WalkDto>(walkDomainModel);
 
-            return Ok(new { Message = "Walk added successfully!" });
+            return CreatedAtAction(nameof(GetWalkById), new {walkDomainModel.Id},walkDto);
         }
 
         // Get All Walks
@@ -43,6 +43,7 @@ namespace NZWalks.API.Controllers
         }
 
         // Get Unique Walk by Id
+        // GET: http://localhost:[portnumber]/api/walks/{id}
         [HttpGet]
         [Route("{id:int}")]
         public async Task<IActionResult> GetWalkById([FromRoute]int id)
@@ -53,6 +54,40 @@ namespace NZWalks.API.Controllers
                 return NotFound();
             }
             var walkDto = _mapper.Map<WalkDto>(walkDomainModel);
+            return Ok(walkDto);
+        }
+
+        // Update Existing Walk By Id
+        // POST: http://localhost:[portnumber]/api/walks/{id}
+        [HttpPost]
+        [Route("{id:int}")]
+        public async Task<IActionResult> UpdateWalkById([FromRoute] int id, [FromBody] WalkUpdateRequestDto walkUpdateRequestDto) 
+        {
+            var walkDomainModel = _mapper.Map<Walk>(walkUpdateRequestDto);
+            walkDomainModel = await _walksRepository.UpdateWalkById(id, walkDomainModel);
+
+            if (walkDomainModel == null) 
+            {
+                return NotFound();
+            }
+            var walkDto = _mapper.Map<WalkDto>(walkDomainModel);
+            return Ok(walkDto);
+        }
+
+
+        // Delete Existing Walk
+        // DELETE: http://localhost:[portnumber]/api/walks/{id}
+        [HttpDelete]
+        [Route("{id:int}")]
+        public async Task<IActionResult> DeleteWalkById([FromRoute] int id) 
+        {
+            var deletedWalk = await _walksRepository.DeleteWalkById(id);
+            if (deletedWalk == null) 
+            {
+                return NotFound();
+            }
+
+            var walkDto = _mapper.Map<WalkDto>(deletedWalk);
             return Ok(walkDto);
         }
 

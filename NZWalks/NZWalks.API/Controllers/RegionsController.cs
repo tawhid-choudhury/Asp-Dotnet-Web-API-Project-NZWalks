@@ -36,7 +36,7 @@ namespace NZWalks.API.Controllers
         // GET: http://localhost:[portnumber]/api/regions/{id}
         [HttpGet]
         [Route("{id:Guid}")]
-        public async Task<IActionResult> GetById(Guid id)
+        public async Task<IActionResult> GetRegionById(Guid id)
         {
             var regionDomain = await _repository.GetRegionByIdAsync(id);
 
@@ -51,7 +51,7 @@ namespace NZWalks.API.Controllers
         // ADD A NEW REGION
         // POST: http://localhost:[portnumber]/api/regions
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] RegionAddRequestDto regionAddRequestDto)
+        public async Task<IActionResult> CreateRegion([FromBody] RegionAddRequestDto regionAddRequestDto)
         {
             var regionDomainModel = _mapper.Map<Region>(regionAddRequestDto);
 
@@ -59,14 +59,14 @@ namespace NZWalks.API.Controllers
 
             var regionDto = _mapper.Map<RegionDto>(regionDomainModel);
 
-            return CreatedAtAction(nameof(GetById), new { id = regionDomainModel.Id }, regionDto);
+            return CreatedAtAction(nameof(GetRegionById), new { id = regionDomainModel.Id }, regionDto);
         }
 
         // UPDATE A REGION
         // PUT: http://localhost:[portnumber]/api/regions/{id}
         [HttpPut]
         [Route("{id:Guid}")]
-        public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] RegionUpdateRequestDto updateRequestDto)
+        public async Task<IActionResult> UpdateRegionById([FromRoute] Guid id, [FromBody] RegionUpdateRequestDto updateRequestDto)
         {
             var regionDomainModel = _mapper.Map<Region>(updateRequestDto);
             regionDomainModel = await _repository.UpdateRegionAsync(id, regionDomainModel);
@@ -82,7 +82,7 @@ namespace NZWalks.API.Controllers
         // DELETE: http://localhost:[portnumber]/api/regions/{id}
         [HttpDelete]
         [Route("{id:Guid}")]
-        public async Task<IActionResult> Delete([FromRoute] Guid id)
+        public async Task<IActionResult> DeleteRegionById([FromRoute] Guid id)
         {
             var regionDomainModel = await _repository.DeleteRegionAsync(id);
             if (regionDomainModel == null)

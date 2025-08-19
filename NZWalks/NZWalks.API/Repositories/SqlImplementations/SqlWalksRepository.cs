@@ -1,6 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 using NZWalks.API.Data;
 using NZWalks.API.Models.Domain;
+using NZWalks.API.Models.DTO;
 using NZWalks.API.Repositories.Interfaces;
 
 namespace NZWalks.API.Repositories.SqlImplementations
@@ -31,6 +33,38 @@ namespace NZWalks.API.Repositories.SqlImplementations
         {
             var walk = await _dbContext.Walks.Include("Region").Include("Difficulty").FirstOrDefaultAsync(x=> x.Id == id);
             return walk;
+        }
+
+        public async Task<Walk?> UpdateWalkById(int id, Walk walkDomainModel)
+        {
+            var existingWalk = await _dbContext.Walks.FindAsync(id);
+            if (existingWalk == null)
+            {
+                return null;
+            }
+
+            existingWalk.Name = walkDomainModel.Name;
+            existingWalk.Description = walkDomainModel.Description;
+            existingWalk.LengthInKm = walkDomainModel.LengthInKm;
+            existingWalk.WalkImageUrl = walkDomainModel.WalkImageUrl;
+            existingWalk.DifficultyId = walkDomainModel.DifficultyId;
+            existingWalk.RegionId = walkDomainModel.RegionId;
+
+            await _dbContext.SaveChangesAsync();
+
+            return existingWalk;
+        }
+
+        public async Task<Walk?> DeleteWalkById(int id)
+        {
+            var existingWalk =  await _dbContext.Walks.FindAsync(id);
+            if (existingWalk == null) 
+            {
+                return null;
+            }
+            _dbContext.Walks.Remove(existingWalk);
+            await _dbContext.SaveChangesAsync();
+            return existingWalk;
         }
     }
 }
