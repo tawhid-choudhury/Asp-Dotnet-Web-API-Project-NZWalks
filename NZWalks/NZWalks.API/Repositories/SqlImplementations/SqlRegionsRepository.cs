@@ -32,6 +32,7 @@ namespace NZWalks.API.Repositories.SqlImplementations
             await _dbContext.SaveChangesAsync();
             return region;
         }
+
         public async Task<Region?> UpdateRegionAsync(Guid id, Region changedRegion)
         {
             // Check if the region with the given id exists
