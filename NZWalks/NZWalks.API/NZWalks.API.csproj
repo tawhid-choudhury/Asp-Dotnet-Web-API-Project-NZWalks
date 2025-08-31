@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Images\" />
     <Folder Include="Repositories\InMemoryImplementations\" />
   </ItemGroup>
 
