@@ -1,0 +1,16 @@
+2025-09-02 13:52:13.104 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-09-02 13:52:13.122 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 17.4297ms
+2025-09-02 13:52:13.155 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-09-02 13:52:13.165 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-02 13:52:13.171 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 5.4446ms
+2025-09-02 13:52:13.193 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.2157ms
+2025-09-02 13:52:13.242 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-09-02 13:52:13.255 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.2148ms
+2025-09-02 13:52:46.741 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-09-02 13:52:46.749 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 8.4953ms
+2025-09-02 13:52:46.779 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-09-02 13:52:46.781 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-02 13:52:46.786 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 5.4669ms
+2025-09-02 13:52:46.792 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.7087ms
+2025-09-02 13:52:46.836 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-09-02 13:52:46.846 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.7928ms

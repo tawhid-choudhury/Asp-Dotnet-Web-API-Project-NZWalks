@@ -52,6 +52,11 @@ namespace NZWalks.API.Controllers
                 isAscending,
                 pageNumber,
                 pageSize);
+
+
+            //throw error to test exception handler middleware
+            throw new Exception("This is a test exception");
+
             var walkDtos = _mapper.Map<List<WalkDto>>(walkDomainModels);
             return Ok(walkDtos);
         }
