@@ -1,0 +1,49 @@
+2025-09-07 11:27:09.614 +06:00 [INF] User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-07 11:27:09.926 +06:00 [INF] Now listening on: https://localhost:7195
+2025-09-07 11:27:09.928 +06:00 [INF] Now listening on: http://localhost:5084
+2025-09-07 11:27:10.025 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-07 11:27:10.027 +06:00 [INF] Hosting environment: Development
+2025-09-07 11:27:10.028 +06:00 [INF] Content root path: D:\0. PROJECTS\ASP DOTNET API PROJECTS\NZWalks\NZWalks\NZWalks.API
+2025-09-07 11:27:10.666 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-09-07 11:27:10.841 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 181.3727ms
+2025-09-07 11:27:10.861 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-09-07 11:27:10.861 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-07 11:27:10.883 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 22.2641ms
+2025-09-07 11:27:10.906 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.6982ms
+2025-09-07 11:27:11.008 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-09-07 11:27:11.024 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.3494ms
+2025-09-07 11:27:21.995 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Regions - null null
+2025-09-07 11:27:22.819 +06:00 [INF] Executing endpoint 'NZWalks.API.Controllers.RegionsController.GetAllRegions (NZWalks.API)'
+2025-09-07 11:27:22.837 +06:00 [INF] Route matched with {action = "GetAllRegions", controller = "Regions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRegions() on controller NZWalks.API.Controllers.RegionsController (NZWalks.API).
+2025-09-07 11:27:23.265 +06:00 [INF] GetAllRegions method started
+2025-09-07 11:27:24.692 +06:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Code], [r].[Name], [r].[RegionImageUrl]
+FROM [Regions] AS [r]
+2025-09-07 11:27:24.751 +06:00 [INF] GetAllRegions method ended: [{"Id":"906cb139-415a-4bbb-a174-1a1faf9fb1f6","Code":"NSN","Name":"Nelson","RegionImageUrl":"https://images.pexels.com/photos/13918194/pexels-photo-13918194.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"},{"Id":"f7248fc3-2585-4efb-8d1d-1c555f4087f6","Code":"AKL","Name":"Auckland","RegionImageUrl":"https://images.pexels.com/photos/5169056/pexels-photo-5169056.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"},{"Id":"14ceba71-4b51-4777-9b17-46602cf66153","Code":"BOP","Name":"Bay Of Plenty","RegionImageUrl":null},{"Id":"6884f7d7-ad1f-4101-8df3-7a6fa7387d81","Code":"NTL","Name":"Northland","RegionImageUrl":null},{"Id":"f077a22e-4248-4bf6-b564-c7cf4e250263","Code":"STL","Name":"Southland","RegionImageUrl":null},{"Id":"cfa06ed2-bf65-4b65-93ed-c9d286ddb0de","Code":"WGN","Name":"Wellington","RegionImageUrl":"https://images.pexels.com/photos/4350631/pexels-photo-4350631.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"}]
+2025-09-07 11:27:24.772 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NZWalks.API.Models.DTO.RegionDto, NZWalks.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-07 11:27:24.779 +06:00 [INF] Executed action NZWalks.API.Controllers.RegionsController.GetAllRegions (NZWalks.API) in 1936.313ms
+2025-09-07 11:27:24.780 +06:00 [INF] Executed endpoint 'NZWalks.API.Controllers.RegionsController.GetAllRegions (NZWalks.API)'
+2025-09-07 11:27:24.787 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Regions - 200 null application/json; charset=utf-8 2792.3497ms
+2025-09-07 11:27:40.405 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-09-07 11:27:40.419 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 14.6076ms
+2025-09-07 11:27:40.458 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-09-07 11:27:40.460 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-07 11:27:40.470 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 10.2336ms
+2025-09-07 11:27:40.490 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.63ms
+2025-09-07 11:27:40.538 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-09-07 11:27:40.549 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.5468ms
+2025-09-07 11:27:42.290 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/api/Regions - null null
+2025-09-07 11:27:42.296 +06:00 [INF] Executing endpoint 'NZWalks.API.Controllers.RegionsController.GetAllRegions (NZWalks.API)'
+2025-09-07 11:27:42.301 +06:00 [INF] Route matched with {action = "GetAllRegions", controller = "Regions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRegions() on controller NZWalks.API.Controllers.RegionsController (NZWalks.API).
+2025-09-07 11:27:42.303 +06:00 [INF] GetAllRegions method started
+2025-09-07 11:27:42.324 +06:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Code], [r].[Name], [r].[RegionImageUrl]
+FROM [Regions] AS [r]
+2025-09-07 11:27:42.327 +06:00 [INF] GetAllRegions method ended: [{"Id":"906cb139-415a-4bbb-a174-1a1faf9fb1f6","Code":"NSN","Name":"Nelson","RegionImageUrl":"https://images.pexels.com/photos/13918194/pexels-photo-13918194.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"},{"Id":"f7248fc3-2585-4efb-8d1d-1c555f4087f6","Code":"AKL","Name":"Auckland","RegionImageUrl":"https://images.pexels.com/photos/5169056/pexels-photo-5169056.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"},{"Id":"14ceba71-4b51-4777-9b17-46602cf66153","Code":"BOP","Name":"Bay Of Plenty","RegionImageUrl":null},{"Id":"6884f7d7-ad1f-4101-8df3-7a6fa7387d81","Code":"NTL","Name":"Northland","RegionImageUrl":null},{"Id":"f077a22e-4248-4bf6-b564-c7cf4e250263","Code":"STL","Name":"Southland","RegionImageUrl":null},{"Id":"cfa06ed2-bf65-4b65-93ed-c9d286ddb0de","Code":"WGN","Name":"Wellington","RegionImageUrl":"https://images.pexels.com/photos/4350631/pexels-photo-4350631.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"}]
+2025-09-07 11:27:42.331 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NZWalks.API.Models.DTO.RegionDto, NZWalks.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-07 11:27:42.333 +06:00 [INF] Executed action NZWalks.API.Controllers.RegionsController.GetAllRegions (NZWalks.API) in 30.708ms
+2025-09-07 11:27:42.334 +06:00 [INF] Executed endpoint 'NZWalks.API.Controllers.RegionsController.GetAllRegions (NZWalks.API)'
+2025-09-07 11:27:42.336 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/api/Regions - 200 null application/json; charset=utf-8 45.7617ms
+2025-09-07 11:27:42.396 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7195/favicon.ico - null null
+2025-09-07 11:27:42.401 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7195/favicon.ico - 404 0 null 5.0387ms
+2025-09-07 11:27:42.404 +06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7195/favicon.ico, Response status code: 404
