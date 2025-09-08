@@ -86,5 +86,55 @@ namespace NZWalks.UI.Controllers
 
             return View(null);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(RegionDto request)
+        {
+            var client = httpClientFactory.CreateClient();
+
+            var httpRequestMessage = new HttpRequestMessage()
+            {
+                Method = HttpMethod.Put,
+                RequestUri = new Uri($"https://localhost:7195/api/Regions/{request.Id}"),
+                Content = new StringContent(JsonSerializer.Serialize(request), Encoding.UTF8, "application/json")
+            };
+
+            var httpResponseMessager= await client.SendAsync(httpRequestMessage);
+            httpResponseMessager.EnsureSuccessStatusCode();
+
+            var response = await httpResponseMessager.Content.ReadFromJsonAsync<RegionDto>();
+
+            if (response != null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(RegionDto request) 
+        {
+            try
+            {
+                var client = httpClientFactory.CreateClient();
+
+                var httpResponseMessage = await client.DeleteAsync($"https://localhost:7195/api/Regions/{request.Id}");
+
+                httpResponseMessage.EnsureSuccessStatusCode();
+
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+            return View();
+
+
+
+        }
     }
 }
